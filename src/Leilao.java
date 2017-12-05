@@ -20,7 +20,7 @@ public class Leilao {
 		return descricao;
 	}
 	
-	public List<Lance> getLanecs(){
+	public List<Lance> getLances(){
 		return Collections.unmodifiableList(lances);
 	}
 }
